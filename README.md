@@ -1,9 +1,15 @@
-# Makefile Project Template
+# CS 552 Operating Systems Project 2
+
+This is a simple shell program written in Rust.
+
+Note: The library used to handle signal processing was officially recommended by the rust developers but is 
+currently failing many of its CI/CD tests on GitHub. It does however seem to be functioning well enough for the
+purposes of this shell.
 
 Steps to configure, build, run, and test the project.
 
 ## Building
-
+To build a shared rust library:
 ```bash
 make
 ```
@@ -22,8 +28,8 @@ make clean
 
 ## Install Dependencies
 
-In order to use git send-mail you need to run the following command:
+If needed, the rust build system (cargo) can be installed by running the following command:
 
 ```bash
-make install-deps
+sudo make install-deps
 ```
