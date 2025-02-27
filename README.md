@@ -28,7 +28,7 @@ make clean
 
 ## Install Dependencies
 
-If needed, the rust build system (cargo) can be installed by running the following command:
+If needed, the rust build system (rustup and cargo) can be installed/updated by running the following command:
 
 ```bash
 sudo make install-deps
