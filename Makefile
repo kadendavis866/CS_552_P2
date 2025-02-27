@@ -1,3 +1,4 @@
+export PATH := $(HOME)/.cargo/bin:$(PATH)
 all:
 	cargo build
 	cp target/debug/P2 ./
