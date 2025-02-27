@@ -3,7 +3,7 @@ all:
 	cp target/debug/P2 ./
 
 check:
-	cargo test
+	cargo test -- --test-threads=1
 
 .PHONY: clean
 clean:
